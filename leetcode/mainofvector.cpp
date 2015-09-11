@@ -101,16 +101,16 @@ public:
     }
 };
 
-int main()
-{
-    int a[] = {2,2,2,2};
-    int b[] = {2,2,2};
-    vector<int> v1(&a[0],&a[sizeof(a)/4]);
-    vector<int> v2(&b[0],&b[sizeof(b)/4]);
-    Solution s;
-    cout<<s.findMedianSortedArrays(v1, v2);
-    //int i;
-    //cout<<"am i success?"<<endl;
-    //cin>>i;
-    return 0;
-}
+//int main()
+//{
+//    int a[] = {2,2,2,2};
+//    int b[] = {2,2,2};
+//    vector<int> v1(&a[0],&a[sizeof(a)/4]);
+//    vector<int> v2(&b[0],&b[sizeof(b)/4]);
+//    Solution s;
+//    cout<<s.findMedianSortedArrays(v1, v2);
+//    //int i;
+//    //cout<<"am i success?"<<endl;
+//    //cin>>i;
+//    return 0;
+//}

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD2D94C31BA26CAF0077DCAE /* solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94C21BA26CAF0077DCAE /* solution.cpp */; };
+		CD2D94C31BA26CAF0077DCAE /* mainofvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94C21BA26CAF0077DCAE /* mainofvector.cpp */; };
+		CD2D94CA1BA367450077DCAE /* Longest Palindromic Substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94C91BA367450077DCAE /* Longest Palindromic Substring.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		CD2D94BF1BA26CAF0077DCAE /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD2D94C21BA26CAF0077DCAE /* solution.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solution.cpp; sourceTree = "<group>"; };
+		CD2D94C21BA26CAF0077DCAE /* mainofvector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainofvector.cpp; sourceTree = "<group>"; };
+		CD2D94C91BA367450077DCAE /* Longest Palindromic Substring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Palindromic Substring.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		CD2D94C11BA26CAF0077DCAE /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				CD2D94C21BA26CAF0077DCAE /* solution.cpp */,
+				CD2D94C21BA26CAF0077DCAE /* mainofvector.cpp */,
+				CD2D94C91BA367450077DCAE /* Longest Palindromic Substring.cpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -118,7 +121,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2D94C31BA26CAF0077DCAE /* solution.cpp in Sources */,
+				CD2D94C31BA26CAF0077DCAE /* mainofvector.cpp in Sources */,
+				CD2D94CA1BA367450077DCAE /* Longest Palindromic Substring.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
