@@ -33,12 +33,12 @@ public:
     }
 };
 
-int main()
- {
-     Solution s;
-     string s1="ABCDE";
-     string temp = s1 + 'c';
-     string s2 = s1.substr(2,3);
-     cout<<s.convert(s1, 4);
-     return 0;
- }
+//int main()
+// {
+//     Solution s;
+//     string s1="ABCDE";
+//     string temp = s1 + 'c';
+//     string s2 = s1.substr(2,3);
+//     cout<<s.convert(s1, 4);
+//     return 0;
+// }

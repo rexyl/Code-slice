@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CD2D94C31BA26CAF0077DCAE /* mainofvector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94C21BA26CAF0077DCAE /* mainofvector.cpp */; };
 		CD2D94CA1BA367450077DCAE /* Longest Palindromic Substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94C91BA367450077DCAE /* Longest Palindromic Substring.cpp */; };
+		CD2D94CD1BA4D5300077DCAE /* ZigZag Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94CB1BA4D5300077DCAE /* ZigZag Conversion.cpp */; };
+		CD2D94D01BA6AC300077DCAE /* merge sort with child process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94CE1BA6AC300077DCAE /* merge sort with child process.cpp */; };
+		CD2D94D21BA6B5220077DCAE /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94D11BA6B5220077DCAE /* thread.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,11 @@
 		CD2D94BF1BA26CAF0077DCAE /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2D94C21BA26CAF0077DCAE /* mainofvector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainofvector.cpp; sourceTree = "<group>"; };
 		CD2D94C91BA367450077DCAE /* Longest Palindromic Substring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Palindromic Substring.cpp"; sourceTree = "<group>"; };
+		CD2D94CB1BA4D5300077DCAE /* ZigZag Conversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ZigZag Conversion.cpp"; sourceTree = "<group>"; };
+		CD2D94CE1BA6AC300077DCAE /* merge sort with child process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "merge sort with child process.cpp"; sourceTree = "<group>"; };
+		CD2D94D11BA6B5220077DCAE /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		CD2D94D41BA6D7650077DCAE /* project-config.jam */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.jam; name = "project-config.jam"; path = "../../Documents/boost_1_59_0/project-config.jam"; sourceTree = "<group>"; };
+		CD2D94D61BA6D7BA0077DCAE /* bjam */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = bjam; path = ../../Documents/boost_1_59_0/bjam; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,8 @@
 		CD2D94B61BA26CAF0077DCAE = {
 			isa = PBXGroup;
 			children = (
+				CD2D94D61BA6D7BA0077DCAE /* bjam */,
+				CD2D94D41BA6D7650077DCAE /* project-config.jam */,
 				CD2D94C11BA26CAF0077DCAE /* leetcode */,
 				CD2D94C01BA26CAF0077DCAE /* Products */,
 			);
@@ -61,6 +71,9 @@
 			children = (
 				CD2D94C21BA26CAF0077DCAE /* mainofvector.cpp */,
 				CD2D94C91BA367450077DCAE /* Longest Palindromic Substring.cpp */,
+				CD2D94CB1BA4D5300077DCAE /* ZigZag Conversion.cpp */,
+				CD2D94CE1BA6AC300077DCAE /* merge sort with child process.cpp */,
+				CD2D94D11BA6B5220077DCAE /* thread.cpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -122,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2D94C31BA26CAF0077DCAE /* mainofvector.cpp in Sources */,
+				CD2D94CD1BA4D5300077DCAE /* ZigZag Conversion.cpp in Sources */,
 				CD2D94CA1BA367450077DCAE /* Longest Palindromic Substring.cpp in Sources */,
+				CD2D94D01BA6AC300077DCAE /* merge sort with child process.cpp in Sources */,
+				CD2D94D21BA6B5220077DCAE /* thread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +225,9 @@
 		CD2D94C71BA26CAF0077DCAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/Rex/Documents/boost_1_59_0/;
+				"INSTALL_PATH[sdk=*]" = /Users/Rex/Documents/boost_1_59_0/boost/;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/Rex/Documents/boost_1_59_0/stage/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +235,9 @@
 		CD2D94C81BA26CAF0077DCAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/Rex/Documents/boost_1_59_0;
+				"INSTALL_PATH[sdk=*]" = /Users/Rex/Documents/boost_1_59_0/boost/;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/Rex/Documents/boost_1_59_0/stage/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
