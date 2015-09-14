@@ -33,13 +33,13 @@ public:
     }
 };
 
-int main()
- {
-     Solution s;
-     string s1="ABCDE";
-     string temp = s1 + 'c';
-     string s2 = s1.substr(2,3);
-     stringstream ss;
-     cout<<s.reverse(2381283);
-     return 0;
- }
+//int main()
+// {
+//     Solution s;
+//     string s1="ABCDE";
+//     string temp = s1 + 'c';
+//     string s2 = s1.substr(2,3);
+//     stringstream ss;
+//     cout<<s.reverse(2381283);
+//     return 0;
+// }

@@ -13,6 +13,22 @@
 		CD2D94D01BA6AC300077DCAE /* merge sort with child process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94CE1BA6AC300077DCAE /* merge sort with child process.cpp */; };
 		CD2D94D21BA6B5220077DCAE /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94D11BA6B5220077DCAE /* thread.cpp */; };
 		CD2D94D91BA7548D0077DCAE /* Reverse Integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94D81BA7548D0077DCAE /* Reverse Integer.cpp */; };
+		CD2D94DB1BA7643B0077DCAE /* Palindrome Number without extra space.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94DA1BA7643B0077DCAE /* Palindrome Number without extra space.cpp */; };
+		CD2D94EB1BA7666F0077DCAE /* balanced binary tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94DC1BA7666F0077DCAE /* balanced binary tree.cpp */; };
+		CD2D94EC1BA7666F0077DCAE /* binary string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94DD1BA7666F0077DCAE /* binary string.cpp */; };
+		CD2D94ED1BA7666F0077DCAE /* binary tree level reverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94DE1BA7666F0077DCAE /* binary tree level reverse.cpp */; };
+		CD2D94EE1BA7666F0077DCAE /* binary tree level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94DF1BA7666F0077DCAE /* binary tree level.cpp */; };
+		CD2D94EF1BA7666F0077DCAE /* easy path sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E01BA7666F0077DCAE /* easy path sum.cpp */; };
+		CD2D94F01BA7666F0077DCAE /* first bad version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E11BA7666F0077DCAE /* first bad version.cpp */; };
+		CD2D94F11BA7666F0077DCAE /* h_index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E21BA7666F0077DCAE /* h_index.cpp */; };
+		CD2D94F21BA7666F0077DCAE /* longest substring without repeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E31BA7666F0077DCAE /* longest substring without repeat.cpp */; };
+		CD2D94F31BA7666F0077DCAE /* merge sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E41BA7666F0077DCAE /* merge sort.cpp */; };
+		CD2D94F41BA7666F0077DCAE /* min string window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E51BA7666F0077DCAE /* min string window.cpp */; };
+		CD2D94F51BA7666F0077DCAE /* missing number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E61BA7666F0077DCAE /* missing number.cpp */; };
+		CD2D94F61BA7666F0077DCAE /* Path Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E71BA7666F0077DCAE /* Path Sum.cpp */; };
+		CD2D94F71BA7666F0077DCAE /* plus one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E81BA7666F0077DCAE /* plus one.cpp */; };
+		CD2D94F81BA7666F0077DCAE /* single number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E91BA7666F0077DCAE /* single number.cpp */; };
+		CD2D94F91BA7666F0077DCAE /* twoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94EA1BA7666F0077DCAE /* twoSum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +53,22 @@
 		CD2D94D41BA6D7650077DCAE /* project-config.jam */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.jam; name = "project-config.jam"; path = "../../Documents/boost_1_59_0/project-config.jam"; sourceTree = "<group>"; };
 		CD2D94D61BA6D7BA0077DCAE /* bjam */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = bjam; path = ../../Documents/boost_1_59_0/bjam; sourceTree = "<group>"; };
 		CD2D94D81BA7548D0077DCAE /* Reverse Integer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Integer.cpp"; sourceTree = "<group>"; };
+		CD2D94DA1BA7643B0077DCAE /* Palindrome Number without extra space.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Palindrome Number without extra space.cpp"; sourceTree = "<group>"; };
+		CD2D94DC1BA7666F0077DCAE /* balanced binary tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "balanced binary tree.cpp"; sourceTree = "<group>"; };
+		CD2D94DD1BA7666F0077DCAE /* binary string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "binary string.cpp"; sourceTree = "<group>"; };
+		CD2D94DE1BA7666F0077DCAE /* binary tree level reverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "binary tree level reverse.cpp"; sourceTree = "<group>"; };
+		CD2D94DF1BA7666F0077DCAE /* binary tree level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "binary tree level.cpp"; sourceTree = "<group>"; };
+		CD2D94E01BA7666F0077DCAE /* easy path sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "easy path sum.cpp"; sourceTree = "<group>"; };
+		CD2D94E11BA7666F0077DCAE /* first bad version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "first bad version.cpp"; sourceTree = "<group>"; };
+		CD2D94E21BA7666F0077DCAE /* h_index.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = h_index.cpp; sourceTree = "<group>"; };
+		CD2D94E31BA7666F0077DCAE /* longest substring without repeat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "longest substring without repeat.cpp"; sourceTree = "<group>"; };
+		CD2D94E41BA7666F0077DCAE /* merge sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "merge sort.cpp"; sourceTree = "<group>"; };
+		CD2D94E51BA7666F0077DCAE /* min string window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "min string window.cpp"; sourceTree = "<group>"; };
+		CD2D94E61BA7666F0077DCAE /* missing number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "missing number.cpp"; sourceTree = "<group>"; };
+		CD2D94E71BA7666F0077DCAE /* Path Sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Path Sum.cpp"; sourceTree = "<group>"; };
+		CD2D94E81BA7666F0077DCAE /* plus one.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "plus one.cpp"; sourceTree = "<group>"; };
+		CD2D94E91BA7666F0077DCAE /* single number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "single number.cpp"; sourceTree = "<group>"; };
+		CD2D94EA1BA7666F0077DCAE /* twoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = twoSum.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +103,28 @@
 		CD2D94C11BA26CAF0077DCAE /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				CD2D94DC1BA7666F0077DCAE /* balanced binary tree.cpp */,
+				CD2D94DD1BA7666F0077DCAE /* binary string.cpp */,
+				CD2D94DE1BA7666F0077DCAE /* binary tree level reverse.cpp */,
+				CD2D94DF1BA7666F0077DCAE /* binary tree level.cpp */,
+				CD2D94E01BA7666F0077DCAE /* easy path sum.cpp */,
+				CD2D94E11BA7666F0077DCAE /* first bad version.cpp */,
+				CD2D94E21BA7666F0077DCAE /* h_index.cpp */,
+				CD2D94E31BA7666F0077DCAE /* longest substring without repeat.cpp */,
+				CD2D94E41BA7666F0077DCAE /* merge sort.cpp */,
+				CD2D94E51BA7666F0077DCAE /* min string window.cpp */,
+				CD2D94E61BA7666F0077DCAE /* missing number.cpp */,
+				CD2D94E71BA7666F0077DCAE /* Path Sum.cpp */,
+				CD2D94E81BA7666F0077DCAE /* plus one.cpp */,
+				CD2D94E91BA7666F0077DCAE /* single number.cpp */,
+				CD2D94EA1BA7666F0077DCAE /* twoSum.cpp */,
 				CD2D94C21BA26CAF0077DCAE /* mainofvector.cpp */,
 				CD2D94C91BA367450077DCAE /* Longest Palindromic Substring.cpp */,
 				CD2D94CB1BA4D5300077DCAE /* ZigZag Conversion.cpp */,
 				CD2D94CE1BA6AC300077DCAE /* merge sort with child process.cpp */,
 				CD2D94D11BA6B5220077DCAE /* thread.cpp */,
 				CD2D94D81BA7548D0077DCAE /* Reverse Integer.cpp */,
+				CD2D94DA1BA7643B0077DCAE /* Palindrome Number without extra space.cpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -137,11 +185,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2D94EB1BA7666F0077DCAE /* balanced binary tree.cpp in Sources */,
 				CD2D94D91BA7548D0077DCAE /* Reverse Integer.cpp in Sources */,
+				CD2D94EF1BA7666F0077DCAE /* easy path sum.cpp in Sources */,
+				CD2D94F81BA7666F0077DCAE /* single number.cpp in Sources */,
 				CD2D94C31BA26CAF0077DCAE /* mainofvector.cpp in Sources */,
 				CD2D94CD1BA4D5300077DCAE /* ZigZag Conversion.cpp in Sources */,
+				CD2D94EE1BA7666F0077DCAE /* binary tree level.cpp in Sources */,
 				CD2D94CA1BA367450077DCAE /* Longest Palindromic Substring.cpp in Sources */,
+				CD2D94F31BA7666F0077DCAE /* merge sort.cpp in Sources */,
 				CD2D94D01BA6AC300077DCAE /* merge sort with child process.cpp in Sources */,
+				CD2D94DB1BA7643B0077DCAE /* Palindrome Number without extra space.cpp in Sources */,
+				CD2D94F11BA7666F0077DCAE /* h_index.cpp in Sources */,
+				CD2D94F71BA7666F0077DCAE /* plus one.cpp in Sources */,
+				CD2D94F41BA7666F0077DCAE /* min string window.cpp in Sources */,
+				CD2D94F91BA7666F0077DCAE /* twoSum.cpp in Sources */,
+				CD2D94F51BA7666F0077DCAE /* missing number.cpp in Sources */,
+				CD2D94ED1BA7666F0077DCAE /* binary tree level reverse.cpp in Sources */,
+				CD2D94F01BA7666F0077DCAE /* first bad version.cpp in Sources */,
+				CD2D94EC1BA7666F0077DCAE /* binary string.cpp in Sources */,
+				CD2D94F21BA7666F0077DCAE /* longest substring without repeat.cpp in Sources */,
+				CD2D94F61BA7666F0077DCAE /* Path Sum.cpp in Sources */,
 				CD2D94D21BA6B5220077DCAE /* thread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
