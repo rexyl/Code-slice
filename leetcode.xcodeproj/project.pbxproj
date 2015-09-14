@@ -12,6 +12,7 @@
 		CD2D94CD1BA4D5300077DCAE /* ZigZag Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94CB1BA4D5300077DCAE /* ZigZag Conversion.cpp */; };
 		CD2D94D01BA6AC300077DCAE /* merge sort with child process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94CE1BA6AC300077DCAE /* merge sort with child process.cpp */; };
 		CD2D94D21BA6B5220077DCAE /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94D11BA6B5220077DCAE /* thread.cpp */; };
+		CD2D94D91BA7548D0077DCAE /* Reverse Integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94D81BA7548D0077DCAE /* Reverse Integer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		CD2D94D11BA6B5220077DCAE /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
 		CD2D94D41BA6D7650077DCAE /* project-config.jam */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.jam; name = "project-config.jam"; path = "../../Documents/boost_1_59_0/project-config.jam"; sourceTree = "<group>"; };
 		CD2D94D61BA6D7BA0077DCAE /* bjam */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = bjam; path = ../../Documents/boost_1_59_0/bjam; sourceTree = "<group>"; };
+		CD2D94D81BA7548D0077DCAE /* Reverse Integer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Integer.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				CD2D94CB1BA4D5300077DCAE /* ZigZag Conversion.cpp */,
 				CD2D94CE1BA6AC300077DCAE /* merge sort with child process.cpp */,
 				CD2D94D11BA6B5220077DCAE /* thread.cpp */,
+				CD2D94D81BA7548D0077DCAE /* Reverse Integer.cpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2D94D91BA7548D0077DCAE /* Reverse Integer.cpp in Sources */,
 				CD2D94C31BA26CAF0077DCAE /* mainofvector.cpp in Sources */,
 				CD2D94CD1BA4D5300077DCAE /* ZigZag Conversion.cpp in Sources */,
 				CD2D94CA1BA367450077DCAE /* Longest Palindromic Substring.cpp in Sources */,
