@@ -46,20 +46,20 @@ public:
     }
 };
 
-int main()
-{
-    Solution s;
-    /*while(1)
-    {
-        string str;
-        cin>>str;cout<<endl;*/
-	vector<int> v;
-	v.push_back(3);
-	v.push_back(2);
-	v.push_back(4);
-    vector<int> result = s.twoSum(v,6);
-    
-    unsigned int i;
-    cin>>i;
-    return 0;
-}
+//int main()
+//{
+//    Solution s;
+//    /*while(1)
+//    {
+//        string str;
+//        cin>>str;cout<<endl;*/
+//	vector<int> v;
+//	v.push_back(3);
+//	v.push_back(2);
+//	v.push_back(4);
+//    vector<int> result = s.twoSum(v,6);
+//    
+//    unsigned int i;
+//    cin>>i;
+//    return 0;
+//}

@@ -52,13 +52,13 @@ public:
     }
 };
 
-int main()
-{
-	Solution s;
-	string str;
-	str = s.addBinary("1110110101","1110111011");
-	cout<<str<<endl;
-	int iww;
-	cin>>iww;
-	return 0;
-}
+//int main()
+//{
+//	Solution s;
+//	string str;
+//	str = s.addBinary("1110110101","1110111011");
+//	cout<<str<<endl;
+//	int iww;
+//	cin>>iww;
+//	return 0;
+//}

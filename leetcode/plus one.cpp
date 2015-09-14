@@ -36,15 +36,15 @@ public:
     }
 };
 
-int main()
-{
-	Solution s;
-	
-	int a[] = {9,9,9,9,9};
-	vector<int> v(&a[0],&a[sizeof(a)/4]);
-	v = s.plusOne(v);
-	
-	int iww;
-	cin>>iww;
-	return 0;
-}
+//int main()
+//{
+//	Solution s;
+//	
+//	int a[] = {9,9,9,9,9};
+//	vector<int> v(&a[0],&a[sizeof(a)/4]);
+//	v = s.plusOne(v);
+//	
+//	int iww;
+//	cin>>iww;
+//	return 0;
+//}
