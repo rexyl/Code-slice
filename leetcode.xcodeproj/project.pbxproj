@@ -29,6 +29,7 @@
 		CD2D94F71BA7666F0077DCAE /* plus one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E81BA7666F0077DCAE /* plus one.cpp */; };
 		CD2D94F81BA7666F0077DCAE /* single number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E91BA7666F0077DCAE /* single number.cpp */; };
 		CD2D94F91BA7666F0077DCAE /* twoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94EA1BA7666F0077DCAE /* twoSum.cpp */; };
+		CD2D94FB1BA7B5C80077DCAE /* regex match problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94FA1BA7B5C80077DCAE /* regex match problem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		CD2D94E81BA7666F0077DCAE /* plus one.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "plus one.cpp"; sourceTree = "<group>"; };
 		CD2D94E91BA7666F0077DCAE /* single number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "single number.cpp"; sourceTree = "<group>"; };
 		CD2D94EA1BA7666F0077DCAE /* twoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = twoSum.cpp; sourceTree = "<group>"; };
+		CD2D94FA1BA7B5C80077DCAE /* regex match problem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "regex match problem.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				CD2D94D11BA6B5220077DCAE /* thread.cpp */,
 				CD2D94D81BA7548D0077DCAE /* Reverse Integer.cpp */,
 				CD2D94DA1BA7643B0077DCAE /* Palindrome Number without extra space.cpp */,
+				CD2D94FA1BA7B5C80077DCAE /* regex match problem.cpp */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2D94FB1BA7B5C80077DCAE /* regex match problem.cpp in Sources */,
 				CD2D94EB1BA7666F0077DCAE /* balanced binary tree.cpp in Sources */,
 				CD2D94D91BA7548D0077DCAE /* Reverse Integer.cpp in Sources */,
 				CD2D94EF1BA7666F0077DCAE /* easy path sum.cpp in Sources */,
