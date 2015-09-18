@@ -26,9 +26,9 @@ public:
         return true;
     }
 };
-int main()
- {
-     Solution s;
-     cout<<s.isPalindrome(1221);
-     return 0;
- }
+//int main()
+// {
+//     Solution s;
+//     cout<<s.isPalindrome(1221);
+//     return 0;
+// }

@@ -30,6 +30,9 @@
 		CD2D94F81BA7666F0077DCAE /* single number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94E91BA7666F0077DCAE /* single number.cpp */; };
 		CD2D94F91BA7666F0077DCAE /* twoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94EA1BA7666F0077DCAE /* twoSum.cpp */; };
 		CD2D94FB1BA7B5C80077DCAE /* regex match problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94FA1BA7B5C80077DCAE /* regex match problem.cpp */; };
+		CD2D94FD1BA8BFEF0077DCAE /* repeated element in sorted array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94FC1BA8BFEF0077DCAE /* repeated element in sorted array.cpp */; };
+		CD2D95001BAB376A0077DCAE /* socket server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2D94FF1BAB376A0077DCAE /* socket server.cpp */; };
+		CD2D95021BAB38A70077DCAE /* socket server.c in Sources */ = {isa = PBXBuildFile; fileRef = CD2D95011BAB38A70077DCAE /* socket server.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,7 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD2D94BF1BA26CAF0077DCAE /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2D94BF1BA26CAF0077DCAE /* code_slice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = code_slice; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2D94C21BA26CAF0077DCAE /* mainofvector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainofvector.cpp; sourceTree = "<group>"; };
 		CD2D94C91BA367450077DCAE /* Longest Palindromic Substring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Palindromic Substring.cpp"; sourceTree = "<group>"; };
 		CD2D94CB1BA4D5300077DCAE /* ZigZag Conversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ZigZag Conversion.cpp"; sourceTree = "<group>"; };
@@ -71,6 +74,10 @@
 		CD2D94E91BA7666F0077DCAE /* single number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "single number.cpp"; sourceTree = "<group>"; };
 		CD2D94EA1BA7666F0077DCAE /* twoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = twoSum.cpp; sourceTree = "<group>"; };
 		CD2D94FA1BA7B5C80077DCAE /* regex match problem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "regex match problem.cpp"; sourceTree = "<group>"; };
+		CD2D94FC1BA8BFEF0077DCAE /* repeated element in sorted array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "repeated element in sorted array.cpp"; sourceTree = "<group>"; };
+		CD2D94FE1BA8C00E0077DCAE /* leetcode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = leetcode; sourceTree = "<group>"; };
+		CD2D94FF1BAB376A0077DCAE /* socket server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "socket server.cpp"; sourceTree = "<group>"; };
+		CD2D95011BAB38A70077DCAE /* socket server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "socket server.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +96,7 @@
 			children = (
 				CD2D94D61BA6D7BA0077DCAE /* bjam */,
 				CD2D94D41BA6D7650077DCAE /* project-config.jam */,
-				CD2D94C11BA26CAF0077DCAE /* leetcode */,
+				CD2D94C11BA26CAF0077DCAE /* code slice */,
 				CD2D94C01BA26CAF0077DCAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +104,16 @@
 		CD2D94C01BA26CAF0077DCAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD2D94BF1BA26CAF0077DCAE /* leetcode */,
+				CD2D94BF1BA26CAF0077DCAE /* code_slice */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD2D94C11BA26CAF0077DCAE /* leetcode */ = {
+		CD2D94C11BA26CAF0077DCAE /* code slice */ = {
 			isa = PBXGroup;
 			children = (
+				CD2D94FE1BA8C00E0077DCAE /* leetcode */,
+				CD2D94FC1BA8BFEF0077DCAE /* repeated element in sorted array.cpp */,
 				CD2D94DC1BA7666F0077DCAE /* balanced binary tree.cpp */,
 				CD2D94DD1BA7666F0077DCAE /* binary string.cpp */,
 				CD2D94DE1BA7666F0077DCAE /* binary tree level reverse.cpp */,
@@ -128,16 +137,19 @@
 				CD2D94D81BA7548D0077DCAE /* Reverse Integer.cpp */,
 				CD2D94DA1BA7643B0077DCAE /* Palindrome Number without extra space.cpp */,
 				CD2D94FA1BA7B5C80077DCAE /* regex match problem.cpp */,
+				CD2D94FF1BAB376A0077DCAE /* socket server.cpp */,
+				CD2D95011BAB38A70077DCAE /* socket server.c */,
 			);
+			name = "code slice";
 			path = leetcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD2D94BE1BA26CAF0077DCAE /* leetcode */ = {
+		CD2D94BE1BA26CAF0077DCAE /* code_slice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD2D94C61BA26CAF0077DCAE /* Build configuration list for PBXNativeTarget "leetcode" */;
+			buildConfigurationList = CD2D94C61BA26CAF0077DCAE /* Build configuration list for PBXNativeTarget "code_slice" */;
 			buildPhases = (
 				CD2D94BB1BA26CAF0077DCAE /* Sources */,
 				CD2D94BC1BA26CAF0077DCAE /* Frameworks */,
@@ -147,9 +159,9 @@
 			);
 			dependencies = (
 			);
-			name = leetcode;
+			name = code_slice;
 			productName = leetcode;
-			productReference = CD2D94BF1BA26CAF0077DCAE /* leetcode */;
+			productReference = CD2D94BF1BA26CAF0077DCAE /* code_slice */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD2D94BA1BA26CAF0077DCAE /* Build configuration list for PBXProject "leetcode" */;
+			buildConfigurationList = CD2D94BA1BA26CAF0077DCAE /* Build configuration list for PBXProject "code_slice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD2D94BE1BA26CAF0077DCAE /* leetcode */,
+				CD2D94BE1BA26CAF0077DCAE /* code_slice */,
 			);
 		};
 /* End PBXProject section */
@@ -196,12 +208,15 @@
 				CD2D94C31BA26CAF0077DCAE /* mainofvector.cpp in Sources */,
 				CD2D94CD1BA4D5300077DCAE /* ZigZag Conversion.cpp in Sources */,
 				CD2D94EE1BA7666F0077DCAE /* binary tree level.cpp in Sources */,
+				CD2D95021BAB38A70077DCAE /* socket server.c in Sources */,
+				CD2D94FD1BA8BFEF0077DCAE /* repeated element in sorted array.cpp in Sources */,
 				CD2D94CA1BA367450077DCAE /* Longest Palindromic Substring.cpp in Sources */,
 				CD2D94F31BA7666F0077DCAE /* merge sort.cpp in Sources */,
 				CD2D94D01BA6AC300077DCAE /* merge sort with child process.cpp in Sources */,
 				CD2D94DB1BA7643B0077DCAE /* Palindrome Number without extra space.cpp in Sources */,
 				CD2D94F11BA7666F0077DCAE /* h_index.cpp in Sources */,
 				CD2D94F71BA7666F0077DCAE /* plus one.cpp in Sources */,
+				CD2D95001BAB376A0077DCAE /* socket server.cpp in Sources */,
 				CD2D94F41BA7666F0077DCAE /* min string window.cpp in Sources */,
 				CD2D94F91BA7666F0077DCAE /* twoSum.cpp in Sources */,
 				CD2D94F51BA7666F0077DCAE /* missing number.cpp in Sources */,
@@ -237,7 +252,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -297,27 +312,29 @@
 		CD2D94C71BA26CAF0077DCAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				"HEADER_SEARCH_PATHS[arch=*]" = /Users/Rex/Documents/boost_1_59_0/;
 				"INSTALL_PATH[sdk=*]" = /Users/Rex/Documents/boost_1_59_0/boost/;
 				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/Rex/Documents/boost_1_59_0/stage/lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = code_slice;
 			};
 			name = Debug;
 		};
 		CD2D94C81BA26CAF0077DCAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				"HEADER_SEARCH_PATHS[arch=*]" = /Users/Rex/Documents/boost_1_59_0;
 				"INSTALL_PATH[sdk=*]" = /Users/Rex/Documents/boost_1_59_0/boost/;
 				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/Rex/Documents/boost_1_59_0/stage/lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = code_slice;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD2D94BA1BA26CAF0077DCAE /* Build configuration list for PBXProject "leetcode" */ = {
+		CD2D94BA1BA26CAF0077DCAE /* Build configuration list for PBXProject "code_slice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD2D94C41BA26CAF0077DCAE /* Debug */,
@@ -326,13 +343,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD2D94C61BA26CAF0077DCAE /* Build configuration list for PBXNativeTarget "leetcode" */ = {
+		CD2D94C61BA26CAF0077DCAE /* Build configuration list for PBXNativeTarget "code_slice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD2D94C71BA26CAF0077DCAE /* Debug */,
 				CD2D94C81BA26CAF0077DCAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

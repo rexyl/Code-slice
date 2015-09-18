@@ -30,7 +30,6 @@ void merge_sort_thread(vector<int>& array) {
         merge (array1.begin(),array1.end(),array2.begin(),array2.end(),array.begin());
     }
 }
-
 //template <typename T>
 //void merge_sort_thread_arbi(vector<T>& array,int i) {
 //    if (1 < array.size()) {
@@ -48,7 +47,7 @@ void merge_sort_thread(vector<int>& array) {
 //{
 //    clock_t timer1,timer2;
 //    timer1 = clock();
-//    int a[] = {2,1,3,4,5,7,9,1,3,3,3};
+//    int a[] = {2,1,3,4,5,7,9,1,3,11,31,61,32,67,86,45,87};
 //    vector<int> v1(&a[0],&a[sizeof(a)/4]);
 //    merge_sort_thread(v1);
 //    timer2 = clock();
@@ -59,5 +58,5 @@ void merge_sort_thread(vector<int>& array) {
 ////    for (int i=0; i<strs.size(); i++) {
 ////        cout<<strs[i]<<endl;
 ////    }
-////    return 0;
+//    return 0;
 //}
